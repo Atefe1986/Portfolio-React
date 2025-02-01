@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <section id="projects" className="projects">
       <h2>My Projects</h2>
-      <ProjectCard
+      <ProjectCard 
         title="Luminova Website"
         image="/images/image1.png"
         link="https://www.figma.com/proto/zR0gYuppgdUSfe0rUiwpwy/Project?node-id=709-2067&node-type=canvas&t=VBHmn5xJwmHwQ4kA-0&scaling=scale-down&content-scaling=fixed&page-id=39%3A47&starting-point-node-id=709%3A2067"

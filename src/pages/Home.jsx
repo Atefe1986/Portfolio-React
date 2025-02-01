@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ProjectCard from "../components/ProjectCard";
 
 function Home() {
   return (
@@ -26,29 +27,33 @@ function Home() {
       <section id="projects" className="projects">
         <h2>My Projects</h2>
 
-        <article className="project">
-          <h3>Luminova Website</h3>
-          <a href="/project1-link.html">
-            <img src="/images/image1.png" alt="Project 1" />
-          </a>
-          <p>Responsive website design with Figma.</p>
-        </article>
+         <ProjectCard 
+                title="Luminova Website"
+                image="/images/image1.png"
+                link="https://www.figma.com/proto/zR0gYuppgdUSfe0rUiwpwy/Project?node-id=709-2067&node-type=canvas&t=VBHmn5xJwmHwQ4kA-0&scaling=scale-down&content-scaling=fixed&page-id=39%3A47&starting-point-node-id=709%3A2067"
+                compact={true}
+        
+                description="Luminova: Your ultimate online store for modern lighting, combining sleek designs with innovative functionality."
+              />
 
-        <article className="project">
-          <h3>Smart Home Application</h3>
-          <a href="/project2-link.html">
-            <img src="/images/image2.png" alt="Project 2" />
-          </a>
-          <p>Application design with Figma.</p>
-        </article>
+        <ProjectCard
+                title="Smart Home Application"
+                image="/images/image2.png"
+                link="https://www.figma.com/proto/4gnTa1LUBHBE9u1OrfbO8C/HiFi?node-id=4-56&node-type=frame&t=E5IuSv0VuEBEWRAt-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A56"
+                compact={true}
+        
+                description="Smart Home Application: A user-friendly interface for monitoring and managing smart devices, offering real-time alerts and seamless control of your connected home."
 
-        <article className="project">
-          <h3>Luminova Website</h3>
-          <a href="/project1-link.html">
-            <img src="/images/image1.png" alt="Project 1" />
-          </a>
-          <p>Responsive website design with Figma.</p>
-        </article>
+              />
+
+       <ProjectCard 
+                title="Luminova Website"
+                image="/images/image1.png"
+                link="https://www.figma.com/proto/zR0gYuppgdUSfe0rUiwpwy/Project?node-id=709-2067&node-type=canvas&t=VBHmn5xJwmHwQ4kA-0&scaling=scale-down&content-scaling=fixed&page-id=39%3A47&starting-point-node-id=709%3A2067"
+                compact={true}
+        
+                description="Luminova: Your ultimate online store for modern lighting, combining sleek designs with innovative functionality."
+              />
       </section>
 
       <section id="email" className="email">
