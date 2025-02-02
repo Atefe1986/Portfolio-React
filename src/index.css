@@ -386,3 +386,41 @@ footer {
   justify-content: space-between;
 }
 }
+
+body.light, body.light main, body.light .hero, body.light .projects, body.light .contact-form, body.light .email {
+  background-color: white;
+  color: black;
+}
+
+/* 🌙 تم تاریک */
+body.dark, body.dark main, body.dark .hero, body.dark .projects, body.dark .contact-form, body.dark .email {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+/* تغییر رنگ لینک‌ها */
+body.dark a {
+  color: #f0a500;
+}
+
+body.light a {
+  color: #5a5a5a;
+}
+
+/* تغییر رنگ دکمه‌ها */
+body.dark button.theme-btn {
+  background-color: #333;
+  color: white;
+  border: 1px solid white;
+}
+
+body.light button.theme-btn {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+body.dark header, body.dark footer {
+  background-color: #333;
+  color: white;
+}
