@@ -424,3 +424,33 @@ body.dark header, body.dark footer {
   background-color: #333;
   color: white;
 }
+
+.not-found {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.not-found h1 {
+  font-size: 3rem;
+  color: #d75c1e;
+}
+
+.not-found p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.not-found .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #d75c1e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.not-found .btn:hover {
+  background-color: #a94312;
+}
