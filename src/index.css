@@ -19,6 +19,8 @@ body, html {
 
 main {
   padding-top: 255px;
+  flex: 1;
+  padding: 20px;
 
 }
 
@@ -354,6 +356,7 @@ footer p {
     align-items: center;
   }
 
+  
   .nav-links {
     flex-direction: row;
     justify-content: center;
@@ -364,6 +367,7 @@ footer p {
     padding-top: 100px;
 
   }
+ 
 
    
 .projects {
@@ -381,10 +385,18 @@ footer p {
   width: 60%;
 }
 
-footer {
-  display: flex;
-  justify-content: space-between;
 }
+
+@media (max-width: 990px) {
+  .hero {
+    padding: 300px 20px;
+  } 
+
+  .projects {
+    padding: 300px 20px;
+  }
+
+
 }
 
 body.light, body.light main, body.light .hero, body.light .projects, body.light .contact-form, body.light .email {
@@ -428,11 +440,13 @@ body.dark header, body.dark footer {
 .not-found {
   text-align: center;
   padding: 100px 20px;
+  
 }
 
 .not-found h1 {
   font-size: 3rem;
   color: #d75c1e;
+  margin-top: 180px;
 }
 
 .not-found p {
@@ -453,4 +467,15 @@ body.dark header, body.dark footer {
 
 .not-found .btn:hover {
   background-color: #a94312;
+}
+
+.not-found footer
+{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: #dbdbcd;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
 }
